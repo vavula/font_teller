@@ -6,13 +6,14 @@ header:
   image: /assets/images/Banner_v2.3.png
 ---
 {% include feature_row %}
-# Project Introduction
+## Project Introduction
+**The style of texts also carries imformation.** OCR (optical character recognition) technology for converting images and scanned documents into text is fairly mature with a high accuracy. It is also widely accessible to the pubilic as being embedded in softwares such as Adobe Acrobat. However, the font information is not preserved during the process, meaning users need to reformat the document from the scratch. This is inconvenient and can possibly introduce human errors in editing. Thus, we propose to use both supervised and unsupervised machine learning to recognize and distinguish typefaces of characters in scanned documents.
 
-# Proposed Method
+## Proposed Method
 
-# Anticipated Results
+## Anticipated Results
 
-# Discussion
+## Discussion
 ### Impact
 
 ### Next Steps
