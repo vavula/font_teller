@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 permalink: /
 header:
-  image: /assets/images/Banner_v2.3.png
+  image: /assets/images/Banner_v2.4.png
 ---
 {% include feature_row %}
 ## Project Introduction
