@@ -6,8 +6,6 @@ header:
   image: /assets/images/Banner_v2.2.png
 ---
 
-{% include feature_row %}
-
 ## Project Introduction
 
 ## Proposed Method
