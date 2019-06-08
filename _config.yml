@@ -280,8 +280,7 @@ compress_html:
   ignore:
     envs: development
 
-header:
-  image: /assets/images/Banner_v2.2.png
+
 
 # Defaults
 defaults:
@@ -296,3 +295,6 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+ header:
+  image: /assets/images/Banner_v2.2.png
