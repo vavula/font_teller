@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Eric, Venkatesh, and Zhijian"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/gatech.jpg
   bio              : "We are students of Georgia Tech. This website is about our project in course CX 4240, Summer 2019."
   location         : "Atlanta, GA"
   email            :
