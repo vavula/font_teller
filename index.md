@@ -6,13 +6,13 @@ header:
   image: /assets/images/Banner_v2.2.png
 ---
 
-## Project Introduction
+# Project Introduction
 
-## Proposed Method
+# Proposed Method
 
-## Anticipated Results
+# Anticipated Results
 
-## Discussion
+# Discussion
 ### Impact
 
 ### Next Steps
