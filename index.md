@@ -1,6 +1,8 @@
 ---
 layout: single
 author_profile: true
+share: true
+comments: true
 permalink: /
 header:
   image: /assets/images/Banner_v2.4.png
