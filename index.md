@@ -17,7 +17,17 @@ OCR (optical character recognition) technology for converting images and scanned
 
 ## Proposed Method
 
+
+
 ## Anticipated Results
+
+While computer generated images of characters in different typefaces (with noises and minor distortions) are used in the training phase, the final goal is to recognize or distinguish at least 3 typefaces from real-life images of characters taken from scanned documents.
+
+- After unsupervised learning, we expect the program to be able to form clusters of scanned images of charaters based on the typefaces.
+
+- After supervised learning, we expect the program to be able to give predictions of the typefaces of scanned images of charaters.
+
+- High accuracies of both programs are expected. However, the accuracies of different letters are expected to be different as some letters are distinct among typefaces than others.
 
 ## Discussion
 ### Impact
