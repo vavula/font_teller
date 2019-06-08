@@ -3,15 +3,22 @@ layout: single
 author_profile: true
 permalink: /
 header:
-  image: /assets/images/Bannar_v2.2.png
-  actions:
-    - label: "<i class='fas fa-download'></i> download"
-      url: "/docs/quick-start-guide/"   
+  image: /assets/images/Banner_v2.2.png
 ---
 
 {% include feature_row %}
 
-## Test 10
+## Project Introduction
+
+## Proposed Method
+
+## Anticipated Results
+
+## Discussion
+### Impact
+
+### Next Steps
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/chrisgrizzly/test/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
