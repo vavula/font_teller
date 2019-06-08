@@ -15,11 +15,12 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
+layout                   : single
 locale                   : "en-US"
 title                    : "Font Teller"
 title_separator          : "-"
 name                     : "Chris"
-description              : "An amazing website."
+description              : "Make words stylish"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -114,7 +115,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:chrish@gatech.edu
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -279,6 +280,8 @@ compress_html:
   ignore:
     envs: development
 
+header:
+  image: /assets/images/image-filename.jpg
 
 # Defaults
 defaults:
