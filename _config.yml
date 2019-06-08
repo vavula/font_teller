@@ -281,7 +281,7 @@ compress_html:
     envs: development
 
 header:
-  image: /assets/images/image-filename.jpg
+  image: /assets/images/Banner_v2.2.png
 
 # Defaults
 defaults:
