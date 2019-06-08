@@ -19,6 +19,12 @@ OCR (optical character recognition) technology for converting images and scanned
 
 <img src="assets/images/method_diagram.png" alt="hi" class="inline"/>
 
+The training sets consist of numbers of computer generated images of characters (A-to-Z) with different typefaces. This enables collecting a large amount of samples efficiently. to mimic the real-life data, which are scanned characters, random distortions and noises will be added when the images are generated. (Note that even though the training sets are software-generated, real-life data will be used to characterize the performance of the program.)
+
+Both supervised and unsupervised methods are proposed. The goal of supervised machine learning will be to predict real-life scanned characters' typefaces. The goal of unsupervised machine learning will be to form clusters of characters with the same typeface.
+
+Due to the complexity of the task, rather than targeting specific features set by researchers, neural networks will be used to figure out which features to look for.
+
 ## Anticipated Results
 
 While computer generated images of characters in different typefaces (with noises and minor distortions) are used in the training phase, the final goal is to recognize or distinguish at least 3 typefaces from real-life images of characters taken from scanned documents.
