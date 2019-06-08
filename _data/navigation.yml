@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Project GitHub"
+    url: https://github.com/chrisgrizzly/font_teller/
+  - title: "Course Info"
+    url: https://mahdi-roozbahani.github.io/cse4240-summer2019.github.io/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
