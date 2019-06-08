@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /
+permalink: /home
 header:
   image: /assets/images/Banner_v2.2.png
   actions:
