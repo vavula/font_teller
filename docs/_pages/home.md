@@ -1,9 +1,8 @@
 ---
-layout: splash
+layout: single
 permalink: /
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  image: /assets/images/Banner_v2.2.png
   actions:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/docs/quick-start-guide/"
