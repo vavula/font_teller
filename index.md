@@ -17,7 +17,7 @@ OCR (optical character recognition) technology for converting images and scanned
 
 ## Proposed Method
 
-
+<img src="assets/images/method_diagram.png" alt="hi" class="inline"/>
 
 ## Anticipated Results
 
