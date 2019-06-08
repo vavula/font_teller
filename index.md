@@ -9,7 +9,7 @@ header:
 ---
 {% include feature_row %}
 
-_**The style of texts also carries imformation.**_ 
+_**The style of texts also carries imformation.**_
 
 ## Project Introduction
 
@@ -46,24 +46,3 @@ The project will lay solid fundation for future works. Some clear extensions tha
 
 ## References
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-### Image
-![GitHub Logo](https://www.gettyimages.com/gi-resources/images/Embed/new/embed2.jpg)
-Format: ![Alt Text](url)
