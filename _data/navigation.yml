@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Download Zip"
+    url: https://github.com/chrisgrizzly/font_teller/archive/master.zip
   - title: "Project GitHub"
     url: https://github.com/chrisgrizzly/font_teller/
   - title: "Course Info"
