@@ -27,13 +27,14 @@ Due to the complexity of the task, we will only be training on 10 distinct font 
 
 ## Anticipated Results
 
-While computer generated images of characters in different typefaces (with noises and minor distortions) are used in the training phase, the final goal is to recognize or distinguish at least 3 typefaces from real-life images of characters taken from scanned documents.
+While computer generated images of characters in different typefaces (with noises and minor distortions) are used in the training phase, the final goal is to recognize or distinguish at least 10 typefaces from real-life images of characters taken from scanned documents.
 
-- After unsupervised learning, we expect the program to be able to form clusters of scanned images of charaters based on the typefaces.
+- After unsupervised learning, we expect the program to be able to form clusters of scanned images of charaters based on the typefaces.(remove this bullet?)
 
-- After supervised learning, we expect the program to be able to give predictions of the typefaces of scanned images of charaters.
+- After a combination of unsupervised and supervised learning, we expect the program to be able to give predictions of the typefaces of scanned images of charaters.
 
 - High accuracies of both programs are expected. However, the accuracies of different letters are expected to be different as some letters are distinct among typefaces than others.
+
 
 ## Discussion
 ### Impact
