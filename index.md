@@ -17,7 +17,7 @@ OCR (optical character recognition) technology for converting images and scanned
 
 ## Proposed Method
 
-<img src="assets/images/method_diagram.png" alt="hi" class="inline"/>
+<img src="assets/images/method_diagram_2.png" alt="hi" class="inline"/>
 
 The training sets consist of numbers of computer generated images of characters (A-to-Z) with different typefaces. This enables collecting a large amount of samples efficiently. To mimic the real-life data, which are scanned characters, random Gaussian noises will be added when the images are generated. (Note that even though the training sets are software-generated, real-life data will be used to characterize the performance of the program.)
 
