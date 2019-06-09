@@ -15,7 +15,7 @@ _**The style of texts also carries imformation.**_
 
 OCR (optical character recognition) technology for converting images and scanned documents into text is fairly mature with a high accuracy. It is also widely accessible to the pubilic as being embedded in softwares such as Adobe Acrobat. However, the font information is not preserved during the process, meaning users need to reformat the document from the scratch. This is inconvenient and can possibly introduce human errors in editing. Thus, we propose to use both supervised and unsupervised machine learning to recognize and distinguish typefaces of characters in scanned documents.
 	
-Meanwhile, there are apps that specifically target the font recognitions. For example, the app WhatTheFont uses deep learning algorithm trained on 33 million images to recognize 100 thousand fonts ${}^{[2]}$. However, the app is tailored towards scanned documents, and for cases where we tested hand-drawn texts, the app will return similar handwritten fonts (thanks to its large collection) instead of similar standard publication fonts that are ready for production. In this sense, the large collection actually hinders people's ability to fast-prototype using pen and paper. To empower artists, designers and editors, we are also proposing to use our trained program for matching the hand-drawn texts with standard fonts.
+Meanwhile, there are apps that specifically target the font recognitions. For example, the app WhatTheFont uses deep learning algorithm trained on 33 million images to recognize 100 thousand fonts $`{}^{[2]}`$. However, the app is tailored towards scanned documents, and for cases where we tested hand-drawn texts, the app will return similar handwritten fonts (thanks to its large collection) instead of similar standard publication fonts that are ready for production. In this sense, the large collection actually hinders people's ability to fast-prototype using pen and paper. To empower artists, designers and editors, we are also proposing to use our trained program for matching the hand-drawn texts with standard fonts.
 
 ## Proposed Method
 
@@ -23,7 +23,7 @@ Meanwhile, there are apps that specifically target the font recognitions. For ex
 
 The training sets consist of numbers of computer generated images of characters (A-to-Z) with different typefaces. This enables collecting a large amount of samples efficiently. To mimic the real-life data, which are scanned characters, random Gaussian noises will be added when the images are generated. (Note that even though the training sets are software-generated, real-life data will be used to characterize the performance of the program.)
 
-Both supervised and unsupervised methods are proposed following the guidance of DEEPFONT ${}^{[3,4]}$. A convolutional neural net consisting of unsupervised and supervised portions will be used. The unsupervised neural network will be used to derive low-level feature information from an unlabeled data set. The supervised neural network will use the low-level features to classify labeled fonts.
+Both supervised and unsupervised methods are proposed following the guidance of DEEPFONT $`{}^{[3,4]}`$. A convolutional neural net consisting of unsupervised and supervised portions will be used. The unsupervised neural network will be used to derive low-level feature information from an unlabeled data set. The supervised neural network will use the low-level features to classify labeled fonts.
 
 Due to the complexity of the task, we will only be training on 10 distinct font types.
 
