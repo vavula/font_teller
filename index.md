@@ -52,3 +52,4 @@ The project will lay solid fundation for future works. Some clear extensions tha
 
 ## References
 [1] Yang, Jianchao, et al. Font Recognition and Font Similarity Learning Using a Deep Neural Network. 22 Nov. 2016.
+[2] Pelli, Denis G., et al. “The Remarkable Inefficiency of Word Recognition.” Nature, vol. 423, no. 6941, 2003, pp. 752–756., doi:10.1038/nature01516.
