@@ -21,7 +21,7 @@ OCR (optical character recognition) technology for converting images and scanned
 
 The training sets consist of numbers of computer generated images of characters (A-to-Z) with different typefaces. This enables collecting a large amount of samples efficiently. To mimic the real-life data, which are scanned characters, random Gaussian noises will be added when the images are generated. (Note that even though the training sets are software-generated, real-life data will be used to characterize the performance of the program.)
 
-Both supervised and unsupervised methods are proposed following the guidance of DEEPFONT $^{[3,4]}$. A convolutional neural net consisting of unsupervised and supervised portions will be used. The unsupervised neural network will be used to derive low-level feature information from an unlabeled data set. The supervised neural network will use the low-level features to classify labeled fonts.
+Both supervised and unsupervised methods are proposed following the guidance of DEEPFONT ${}^{[3,4]}$. A convolutional neural net consisting of unsupervised and supervised portions will be used. The unsupervised neural network will be used to derive low-level feature information from an unlabeled data set. The supervised neural network will use the low-level features to classify labeled fonts.
 
 Due to the complexity of the task, we will only be training on 10 distinct font types.
 
