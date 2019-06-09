@@ -33,6 +33,8 @@ While computer generated images of characters in different typefaces (with noise
 
 - After a combination of unsupervised and supervised learning, we expect the program to be able to give predictions of the typefaces of scanned images of charaters.
 
+- The program should also be able to match hand-drawn characters with similar typefaces.
+
 - High accuracies of both programs are expected. However, the accuracies of different letters are expected to be different as some letters are distinct among typefaces than others.
 
 
