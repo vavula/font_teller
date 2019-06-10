@@ -21,7 +21,7 @@ Meanwhile, there are apps that specifically target the font recognitions. For ex
 
 <img src="assets/images/method_diagram_2.png" alt="hi" class="inline"/>
 
-The training sets consist of numbers of computer generated images of characters (A-to-Z) with different typefaces. This enables collecting a large amount of samples efficiently. To mimic the real-life data, which are scanned characters, random Gaussian noises will be added when the images are generated. (Note that even though the training sets are software-generated, real-life data will be used to characterize the performance of the program.)
+The training sets consist of numbers of computer generated images of characters (A-to-Z) with different typefaces. This enables collecting a large amount of samples efficiently. To mimic the real-life data, which are scanned characters, random Gaussian noises [1] will be added when the images are generated. (Note that even though the training sets are software-generated, real-life data will be used to characterize the performance of the program.)
 
 Both supervised and unsupervised methods are proposed following the guidance of DEEPFONT [3,4]. A convolutional neural net consisting of unsupervised and supervised portions will be used. The unsupervised neural network will be used to derive low-level feature information from an unlabeled data set. The supervised neural network will use the low-level features to classify labeled fonts.
 
@@ -54,10 +54,8 @@ The project will lay solid fundation for future works. Some clear extensions tha
 - Adding detections of other aspects of fonts, such as color, size, highlight, bold, italic, and underscore. 
 
 ## References
-[1] Yang, Jianchao, et al. Font Recognition and Font Similarity Learning Using a Deep Neural Network. 22 Nov. 2016.
+[1]  Pelli, Denis G., et al. “The Remarkable Inefficiency of Word Recognition.” Nature, vol. 423, no. 6941, 2003, pp. 752–756., doi:10.1038/nature01516.
 
-[2] Pelli, Denis G., et al. “The Remarkable Inefficiency of Word Recognition.” Nature, vol. 423, no. 6941, 2003, pp. 752–756., doi:10.1038/nature01516.
+[2] Yang, Jianchao, et al. Font Recognition and Font Similarity Learning Using a Deep Neural Network. 22 Nov. 2016.
 
-[3] Yang, Jianchao, et al. Font Recognition and Font Similarity Learning Using a Deep Neural Network. 22 Nov. 2016.
-
-[4] Wang, Zhangyang, et al. “DeepFont: Identify Your Font from An Image.” Proceedings of the 23rd ACM International Conference on Multimedia - MM ‘15, 2015, doi:10.1145/2733373.2806219.
+[3] Wang, Zhangyang, et al. “DeepFont: Identify Your Font from An Image.” Proceedings of the 23rd ACM International Conference on Multimedia - MM ‘15, 2015, doi:10.1145/2733373.2806219.
